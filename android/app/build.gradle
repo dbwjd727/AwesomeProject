@@ -102,19 +102,6 @@ android {
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
         }
     }
-
-    buildscript {
-    ext {
-        ...
-        kotlin_version = '1.6.10'
-    }
-    ...
-    dependencies {
-        ...
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-    }
-    ...
-}
 }
 
 dependencies {
